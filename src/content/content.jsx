@@ -42,13 +42,13 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Hingryd Rokar",
   email: "contato", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "prevsocialautonoma.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "88",
+    firstPart: "98191", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2625", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -62,11 +62,11 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>Das 9h às 16h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "prevsocialautonoma", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -378,29 +378,62 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É HINGRYD ROKAR",
+      title: "Minha trajetória",
+      subtitle:
+        "Auxiliamos clientes em todo o Brasil, oferecendo soluções em serviço social",
       paragraph: (
         <div>
-          A_Definir
+          Auxiliamos clientes em todo o Brasil, oferecendo soluções
+          especializadas em serviço social, com ênfase na área previdenciária. A
+          idealizadora, Hingryd Rokar, é uma profissional dedicada e apaixonada
+          pela transformação de vidas através do direito social.
           <br />
-          A_Definir
+          Formada em Serviço Social pela Faculdade Leão Sampaio, em Juazeiro do
+          Norte, Ceará, com especialização em Serviço Social e Humanização, ela
+          traz um conhecimento técnico profundo e uma abordagem humana e
+          empática para cada caso.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Auxiliamos clientes em todo o Brasil, oferecendo soluções
+          especializadas em serviço social, com ênfase na área previdenciária. A
+          idealizadora, Hingryd Rokar, é uma profissional dedicada e apaixonada
+          pela transformação de vidas através do direito social.
           <br />
           <br />
-          A_Definir
+          Formada em Serviço Social pela Faculdade Leão Sampaio, em Juazeiro do
+          Norte, Ceará, com especialização em Serviço Social e Humanização, ela
+          traz um conhecimento técnico profundo e uma abordagem humana e
+          empática para cada caso.
           <br />
           <br />
-          A_Definir
+          Com o objetivo de garantir o acesso dos nossos clientes aos benefícios
+          previdenciários, especialmente o BPC (Benefício de Prestação
+          Continuada), atuamos de maneira autônoma e personalizada.
           <br />
           <br />
-          A_Definir
+          Nossa missão é proporcionar informações claras e respostas rápidas,
+          possibilitando que nossos clientes obtenham os benefícios do INSS aos
+          quais têm direito, de forma ágil e sem burocracia.
+          <br />
+          <br />
+          Hingryd também tem uma formação contínua, com cursos especializados
+          como o Avançado Assistente Social Expert em BPC e o Assistente Técnico
+          Social, ambos com carga horária intensa, demonstrando seu compromisso
+          com a atualização constante e com a excelência nos serviços prestados.
+          <br />
+          <br />
+          Além de ser esposa e empreendedora, Hingryd atua com paixão no campo
+          do Direito Previdenciário, oferecendo suporte técnico e jurídico para
+          aqueles que precisam de orientação para conquistar seus direitos.
+          <br />
+          <br />
+          Com respeito, dignidade e compromisso, buscamos sempre melhorar a
+          qualidade de vida de nossos clientes, proporcionando a certeza de que
+          seus direitos serão defendidos com dedicação e conhecimento técnico.
           <br />
           <br />
         </p>
@@ -415,13 +448,12 @@ const content = {
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle: "",
+        title: "Acompanhe muitas novidades e atualizações!",
+        subtitle: "💡 Conheça seus direitos de maneira fácil e rápida!",
         paragraph: (
           <p>
-            Fique por dentro das atualizações mais importantes e aproveite
-            nossas redes sociais para mantermos contato. Estamos sempre por
-            aqui, compartilhando o que faz a diferença.
+            Acompanhe nossas postagens e fique por dentro de tudo sobre
+            benefícios e direitos sociais.
           </p>
         ),
       },
@@ -430,68 +462,72 @@ const content = {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
       title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+        "Tem dúvidas sobre seus direitos? Deixe que cuidamos disso para você!",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+        "Entre em contato e receba a orientação sobre benefícios e direitos sociais que você merece.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
       miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso atendimento?",
+      title: "Saiba como contratar meus serviços",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
+          cardTitle: "Avaliação Inicial",
           cardDescription:
-            "Reunião para entender seu caso e identificar suas necessidades.",
+            "Entre em contato  para um atendimento inicial. Durante essa conversa, você poderá compartilhar detalhes sobre o seu caso.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
+          cardTitle: "Análise e Orientação",
           cardDescription:
-            "Análise detalhada de documentos e evidências do seu caso.",
+            "Após a avaliação inicial, realizaremos uma análise detalhada do seu caso. Vamos explicar as opções disponíveis e aconselhar sobre as melhores estratégias jurídicas.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
+          cardTitle: "Contrato de Serviços",
           cardDescription:
-            "Desenvolvemos uma estratégia personalizada para o seu caso.",
+            "Se você decidir seguir em frente, elaboramos um contrato de serviços que descreve os termos e honorários da prestação de serviços.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Procedimento eficaz",
+          cardTitle: "Início dos Trabalhos",
           cardDescription:
-            "Iniciamos ações pautadas na resolução do problema, judiciais e extrajudiciais.",
+            "Com o contrato em vigor, iniciamos com excelência a solicitação do seu benefício para proteger seus interesses e alcançar os melhores resultados possíveis em seu caso.",
         },
       },
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
       title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question:
+            "Quais são os principais benefícios sociais disponíveis no Brasil?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "Os principais benefícios sociais incluem o Bolsa Família, o Benefício de Prestação Continuada (BPC), o Auxílio Brasil, o Programa de Erradicação do Trabalho Infantil (PETI), entre outros. ",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question:
+            "Quais são os requisitos para acessar o Benefício de Prestação Continuada (BPC)?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "Para ter direito ao BPC, é necessário ser idoso com 65 anos ou mais ou pessoa com deficiência de qualquer idade, com renda familiar per capita inferior a 1/4 do salário mínimo.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question:
+            "Como posso verificar se tenho direito a algum benefício social?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "Você pode consultar sua elegibilidade através do Cadastro Único para Programas Sociais (CadÚnico) ou entrando em contato com a assistência social do seu município.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question:
+            "Quais documentos são necessários para solicitar benefícios sociais?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "Geralmente, são exigidos documentos pessoais como RG, CPF, comprovante de residência, comprovante de renda e, se aplicável, documentos que comprovem a deficiência ou idade.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
