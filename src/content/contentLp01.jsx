@@ -141,54 +141,131 @@ const contentLp01 = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "TRANSFORME SUA CARREIRA",
+      title: "Lucre com sua liberdade: Seja uma Assistente Social Autônoma!",
     },
     paragraph: (
       <p>
-        A_Definir <br />
-        <br /> A_Definir
+        Cansada da falta de oportunidades no mercado convencional? Com o Método
+        ASA, você pode atuar como Assistente Social Autônoma, conquistando sua
+        independência financeira e vivendo do seu conhecimento. <br />
+        <br /> Aprenda passo a passo como oferecer serviços, atrair clientes e
+        crescer na profissão sem depender de concursos ou empregos formais!
       </p>
     ),
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "Quero transformar minha carreira",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "POR QUE SER ASA?",
+      title: "A liberdade que você merece está ao seu alcance!",
     },
     cards: {
       card1: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-list-check"
+          >
+            <path d="M11 18H3" />
+            <path d="m15 18 2 2 4-4" />
+            <path d="M16 12H3" />
+            <path d="M16 6H3" />
+          </svg>
+        ),
+        title: "Mais oportunidades, menos limitações",
+        description:
+          "O mercado tradicional é restrito, mas como autônoma, você pode atuar em diversas áreas, ampliando suas possibilidades e conquistando sua independência.",
       },
       card2: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-piggy-bank"
+          >
+            <path d="M19 5c-1.5 0-2.8 1.4-3 2-3.5-1.5-11-.3-11 5 0 1.8 0 3 2 4.5V20h4v-2h3v2h4v-4c1-.5 1.7-1 2-2h2v-4h-2c0-1-.5-1.5-1-2V5z" />
+            <path d="M2 9v1c0 1.1.9 2 2 2h1" />
+            <path d="M16 11h.01" />
+          </svg>
+        ),
+        title: "Renda sem depender de concursos",
+        description:
+          "Chega de esperar a aprovação em concursos ou vagas limitadas. Aprenda a gerar sua própria renda com seu conhecimento técnico e conquiste estabilidade financeira.",
       },
       card3: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-award"
+          >
+            <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526" />
+            <circle cx="12" cy="8" r="6" />
+          </svg>
+        ),
+        title: "Método comprovado e passo a passo",
+        description:
+          "Com o Método ASA, você aprende tudo que precisa para atuar de forma independente, desde a captação de clientes até a entrega dos serviços.",
       },
       card4: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-sparkles"
+          >
+            <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" />
+            <path d="M20 3v4" />
+            <path d="M22 5h-4" />
+            <path d="M4 17v2" />
+            <path d="M5 18H3" />
+          </svg>
+        ),
+        title: "Transforme sua carreira e sua vida",
+        description:
+          "Tenha orgulho da sua profissão e mostre para sua família que o Serviço Social pode te proporcionar sucesso e liberdade!",
       },
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: `A_Definir`,
+      miniTag: "PACK DE ARTES PRONTAS - ASA",
+      title: "Eleve sua presença online com artes profissionais!",
+      subtitle: `Tenha acesso a um pack exclusivo de artes prontas para redes sociais, focado no BPC, e atraia mais clientes com conteúdos informativos e de alto impacto.`,
     },
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "Quero meu pack de artes!",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {
