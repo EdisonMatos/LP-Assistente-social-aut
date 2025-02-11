@@ -6,9 +6,12 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "A_Definir1",
-    description: "A_Definir",
-    keywords: "A_Definir",
+    title:
+      "Método ASA: Torne-se uma Assistente Social Autônoma e Lucre com o BPC",
+    description:
+      "Aprenda a atuar como Assistente Social Autônoma com o Método ASA e transforme seu conhecimento em renda, atuando com BPC e outros serviços. Conquiste independência financeira no Serviço Social.",
+    keywords:
+      "Assistente Social Autônoma, Método ASA, Serviço Social Autônomo, Curso para Assistente Social, Atuação Autônoma no Serviço Social, Trabalhar com BPC, Benefício de Prestação Continuada, Curso BPC para Assistentes Sociais, Como atuar com BPC, Serviço Social e BPC, Consultoria em Serviço Social, Assessoria Social, Laudos e Perícias Sociais, Captação de Clientes no Serviço Social, Renda para Assistente Social, Empreendedorismo Social, Como viver do Serviço Social, Atuação Privada no Serviço Social, Independência Financeira no Serviço Social, Hingryd Jannyne Rokar.",
   },
   hero: {
     bgImg: bgImg,
@@ -19,41 +22,115 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          A_Definir <span className="text-lpTitle"> A_Definir</span> A_Definir
-          <span className="text-lpTitle"> A_Definir</span>
+          Seja <span className="text-primary"> ASA </span> e conquiste sua
+          <span className="text-primary"> liberdade financeira</span>!
         </h1>
       ),
-      subtitle: "A_Definir",
-      buttonLabel: "Quero falar com um especialista",
+      subtitle:
+        "Aprenda o nosso método e descubra como garantir sua renda de forma autônoma no Serviço Social.",
+      buttonLabel: "Quero Ser Autônoma",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "ATUAÇÃO ASA",
+      title: "Onde você consegue atuar?",
     },
     cards: {
       card1: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-message-circle-heart"
+          >
+            <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
+            <path d="M15.8 9.2a2.5 2.5 0 0 0-3.5 0l-.3.4-.35-.3a2.42 2.42 0 1 0-3.2 3.6l3.6 3.5 3.6-3.5c1.2-1.2 1.1-2.7.2-3.7" />
+          </svg>
+        ),
+        title: "Consultoria e Assessoria Social",
+        description:
+          "Oriente empresas, ONGs e instituições na criação de projetos sociais, políticas de assistência e suporte técnico. Atue de forma independente, utilizando seu conhecimento para transformar realidades.",
       },
       card2: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-newspaper"
+          >
+            <path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2" />
+            <path d="M18 14h-8" />
+            <path d="M15 18h-5" />
+            <path d="M10 6h8v4h-8V6Z" />
+          </svg>
+        ),
+        title: "Perícia Social e Laudos Técnicos",
+        description:
+          "Elabore pareceres e laudos para processos jurídicos, previdenciários e administrativos. Seu conhecimento pode ser a chave para garantir direitos e justiça social.",
       },
       card3: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-hand-heart"
+          >
+            <path d="M11 14h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 16" />
+            <path d="m7 20 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
+            <path d="m2 15 6 6" />
+            <path d="M19.5 8.5c.7-.7 1.5-1.6 1.5-2.7A2.73 2.73 0 0 0 16 4a2.78 2.78 0 0 0-5 1.8c0 1.2.8 2 1.5 2.8L16 12Z" />
+          </svg>
+        ),
+        title: "Atendimento e Acompanhamento Social",
+        description:
+          "Preste suporte a indivíduos e famílias em vulnerabilidade, oferecendo atendimento particular ou em parceria com instituições. Transforme vidas com seu conhecimento técnico.",
       },
       card4: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-speech"
+          >
+            <path d="M8.8 20v-4.1l1.9.2a2.3 2.3 0 0 0 2.164-2.1V8.3A5.37 5.37 0 0 0 2 8.25c0 2.8.656 3.054 1 4.55a5.77 5.77 0 0 1 .029 2.758L2 20" />
+            <path d="M19.8 17.8a7.5 7.5 0 0 0 .003-10.603" />
+            <path d="M17 15a3.5 3.5 0 0 0-.025-4.975" />
+          </svg>
+        ),
+        title: "Mentoria para Assistentes Sociais Iniciantes",
+        description:
+          "Ajude outros profissionais a se posicionarem no mercado de forma autônoma. Compartilhe sua experiência e crie um impacto positivo no Serviço Social.",
       },
     },
   },
