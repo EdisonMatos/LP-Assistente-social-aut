@@ -64,7 +64,7 @@ export default function AboutParalaxeLP() {
                           contentLp01.hero.textArea.ctaButtonAriaLabel
                         }
                         label={contentLp01.about.buttonLabel}
-                        buttonLink={contentLp01.links.ctaWhatsapp}
+                        buttonLink="https://pay.kiwify.com.br/oFO7lpj?fbclid=PAZXh0bgNhZW0CMTEAAabF6m99YRYGaz8-bREaa8gqvnyWTQYOuDmDDg6vwLyn2mQmCO5aQR1AezM_aem_3yMEgDaDWKQ9EOUNqtiymA"
                         animation
                         className=""
                         icon={

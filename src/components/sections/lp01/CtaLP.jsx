@@ -30,7 +30,7 @@ export default function AboutParalaxeLP() {
                 <Button
                   aria-label={contentLp01.hero.textArea.ctaButtonAriaLabel}
                   label={contentLp01.cta.buttonLabel}
-                  buttonLink={contentLp01.links.ctaWhatsapp}
+                  buttonLink="https://pay.hotmart.com/J64115249S?sck=HOTMART_PRODUCT_PAGE&off=wxbg6nlh&hotfeature=32&_gl=1*1ynbosl*_ga*NTMzNzAzMTcwLjE3MDUyMzQ4NzQ.*_ga_GQH2V1F11Q*MTcxMDQxNDU1Mi4yMS4xLjE3MTA0MTYyMTIuNTcuMC4w&bid=1710416223061"
                   animation
                   icon={
                     <svg
