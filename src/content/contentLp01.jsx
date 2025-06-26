@@ -27,7 +27,7 @@ const contentLp01 = {
         </h1>
       ),
       subtitle:
-        "Aprenda o nosso método e descubra como garantir sua renda de forma autônoma no Serviço Social.",
+        "Conte com Hingryd Rokar Previdenciarista para garantir seus benefícios e conquistar os direitos que você merece, com expertise e dedicação.",
       buttonLabel: "Quero Ser Autônoma",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
