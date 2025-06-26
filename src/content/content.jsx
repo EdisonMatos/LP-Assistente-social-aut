@@ -5,7 +5,7 @@ import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+import aboutImg1 from "../assets/imgs/about/AboutImg.webp";
 import aboutSocial from "../assets/imgs/about/aboutSocial.webp";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 
@@ -469,7 +469,7 @@ const content = {
       title:
         "Tem dúvidas sobre seus direitos? Deixe que cuidamos disso para você!",
       subtitle:
-        "Entre em contato e receba a orientação sobre benefícios e direitos sociais que você merece.",
+        "Entre em contato e receba a orientação sobre benefícios do INSS e direitos sociais que você merece.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
