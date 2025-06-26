@@ -390,9 +390,11 @@ const content = {
           pela transformação de vidas através do direito social.
           <br />
           Formada em Serviço Social pela Faculdade Leão Sampaio, em Juazeiro do
-          Norte, Ceará, com especialização em Serviço Social e Humanização, ela
-          traz um conhecimento técnico profundo e uma abordagem humana e
-          empática para cada caso.
+          Norte, Ceará, com especialização em Serviço Social e Humanização,
+          Hingryd atua de forma autônoma na área previdenciária, buscando sempre
+          o melhor benefício do INSS para cada cliente. Com um conhecimento
+          técnico profundo e uma abordagem humana e empática, trata cada caso
+          com sensibilidade e comprometimento.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
@@ -405,35 +407,38 @@ const content = {
           <br />
           <br />
           Formada em Serviço Social pela Faculdade Leão Sampaio, em Juazeiro do
-          Norte, Ceará, com especialização em Serviço Social e Humanização, ela
-          traz um conhecimento técnico profundo e uma abordagem humana e
-          empática para cada caso.
+          Norte, Ceará, com especialização em Serviço Social e Humanização,
+          Hingryd atua de forma autônoma na área previdenciária, buscando sempre
+          o melhor benefício do INSS para cada cliente. Com um conhecimento
+          técnico profundo e uma abordagem humana e empática, trata cada caso
+          com sensibilidade e comprometimento.
           <br />
           <br />
-          Com o objetivo de garantir o acesso dos nossos clientes aos benefícios
-          previdenciários, especialmente o BPC (Benefício de Prestação
-          Continuada), atuamos de maneira autônoma e personalizada.
+          Nosso principal objetivo é garantir o acesso dos nossos clientes aos
+          benefícios previdenciários, especialmente o BPC (Benefício de
+          Prestação Continuada), por meio de um atendimento personalizado, claro
+          e eficiente.
           <br />
           <br />
-          Nossa missão é proporcionar informações claras e respostas rápidas,
-          possibilitando que nossos clientes obtenham os benefícios do INSS aos
-          quais têm direito, de forma ágil e sem burocracia.
+          Nossa missão é proporcionar informações acessíveis e respostas
+          rápidas, possibilitando que nossos clientes conquistem os benefícios
+          do INSS aos quais têm direito de forma ágil e sem burocracia.
           <br />
           <br />
-          Hingryd também tem uma formação contínua, com cursos especializados
-          como o Avançado Assistente Social Expert em BPC e o Assistente Técnico
-          Social, ambos com carga horária intensa, demonstrando seu compromisso
-          com a atualização constante e com a excelência nos serviços prestados.
+          Hingryd também investe em formação contínua, com cursos como o
+          Avançado Assistente Social Expert em BPC e o Assistente Técnico
+          Social, ambos com carga horária intensa, reforçando seu compromisso
+          com a excelência e a constante atualização profissional.
           <br />
           <br />
-          Além de ser esposa e empreendedora, Hingryd atua com paixão no campo
-          do Direito Previdenciário, oferecendo suporte técnico e jurídico para
-          aqueles que precisam de orientação para conquistar seus direitos.
+          Além de esposa e empreendedora, Hingryd atua com paixão no campo do
+          Direito Previdenciário, oferecendo suporte técnico e jurídico para
+          quem precisa de orientação especializada na busca de seus direitos.
           <br />
           <br />
           Com respeito, dignidade e compromisso, buscamos sempre melhorar a
-          qualidade de vida de nossos clientes, proporcionando a certeza de que
-          seus direitos serão defendidos com dedicação e conhecimento técnico.
+          qualidade de vida dos nossos clientes, garantindo que seus direitos
+          sejam defendidos com dedicação e conhecimento técnico.
           <br />
           <br />
         </p>
@@ -464,7 +469,7 @@ const content = {
       title:
         "Tem dúvidas sobre seus direitos? Deixe que cuidamos disso para você!",
       subtitle:
-        "Entre em contato e receba a orientação sobre benefícios e direitos sociais que você merece.",
+        "Entre em contato e receba a orientação sobre benefícios do INSS e direitos sociais que você merece.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
