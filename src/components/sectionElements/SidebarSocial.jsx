@@ -77,8 +77,8 @@ export default function SidebarSocial({ LightMode }) {
               id="app-sidebar-2"
               className={`${
                 LightMode
-                  ? "bg-white"
-                  : "absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-bgSectionDark surface-section lg:hidden lg:static z-1 surface-border border-neutral-700"
+                  ? "bg-bgSectionDark"
+                  : "absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-bgSectionDark surface-section lg:hidden lg:static z-1 surface-border border-white"
               }`}
               style={{ width: "280px" }}
             >
@@ -101,21 +101,21 @@ export default function SidebarSocial({ LightMode }) {
                       outlined
                       className={`${
                         LightMode
-                          ? "text-black"
+                          ? "text-white"
                           : "h-2rem w-2rem p-[5px] text-white"
                       }`}
                     ></Button>
                   </span>
                 </div>
                 <div className="h-screen overflow-y-auto">
-                  <hr className="m-5 mx-3 border-top-1 surface-border border-neutral-700" />
+                  <hr className="m-5 mx-3 border-top-1 surface-border border-white" />
                   <ul className="p-3 m-0 list-none">
                     <li>
                       {submenuVisible && (
                         <ul
                           className={`${
                             LightMode
-                              ? "text-black"
+                              ? "text-white"
                               : "p-0 m-0 -mt-[16px] overflow-hidden font-medium text-white"
                           } list-none text-paragraph3 font-mainFont`}
                         >

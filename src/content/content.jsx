@@ -1,4 +1,4 @@
-import logo from "../assets/imgs/logo/logo.webp";
+import logo from "../assets/imgs/logo/logo.png";
 import heroImg from "../assets/imgs/hero/lawHero.webp";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 
