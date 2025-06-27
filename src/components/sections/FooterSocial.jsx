@@ -43,7 +43,7 @@ export default function FooterSocial({
                     src={content.texts.navbar.logo.img}
                     alt={content.texts.navbar.logo.alt}
                     // className="max-h-[88px] w-auto"
-                    className="max-h-[88px] w-auto bg-white p-[12px] rounded-md"
+                    className="max-h-[88px] w-auto rounded-md"
                   ></img>
                 </div>
               </MotionDivDownToUp>
