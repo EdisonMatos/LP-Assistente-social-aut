@@ -93,7 +93,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ASSISTENTE SOCIAL EM JUAZEIRO DO NORTE - CE",
+      miniTag: "HINGRYD ROKAR PREVIDENCIARISTA JUAZEIRO DO NORTE - CE",
       title: (
         <h1 className="mb-[16px]">
           Transforme
@@ -372,7 +372,7 @@ const content = {
           subtitle: "A_Definir",
         },
       },
-    },
+  },
     about: {
       imagem: {
         img: aboutImg1,
@@ -381,7 +381,7 @@ const content = {
       miniTag: "QUEM É HINGRYD ROKAR",
       title: "Minha trajetória",
       subtitle:
-        "Auxiliamos clientes em todo o Brasil, oferecendo soluções em serviço social",
+        "Auxiliamos clientes em todo o Brasil, oferecendo soluções para buscar seu benefício do INSS e direitos sociais.",
       paragraph: (
         <div>
           Auxiliamos clientes em todo o Brasil, oferecendo soluções
